@@ -3,6 +3,16 @@ const GsapTimeline = () => {
 const timeline = gsap.timeline({
   repeat: -1, repeatDelay:1, yoyo:true
 });
+
+useGSAP(()=>{
+  timeline.to('#yellow-box',{
+    x:250,
+    rotation:360,
+    bobrderRadius:'100%',
+    duration:2,
+    ease:'back.inOut'
+  })
+}, []);
   return (
     <main>
       <h1>GsapTimeline</h1>
