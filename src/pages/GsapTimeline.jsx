@@ -6,9 +6,17 @@ const timeline = gsap.timeline({
 
 useGSAP(()=>{
   timeline.to('#yellow-box',{
-    x:250,
+    x:250, 
     rotation:360,
     bobrderRadius:'100%',
+    duration:2,
+    ease:'back.inOut'
+  })
+  timeline.to('#yelloow-box',{
+    x:500,
+    scale:1,
+    rotation:360,
+    borderRadius:'6px',
     duration:2,
     ease:'back.inOut'
   })
