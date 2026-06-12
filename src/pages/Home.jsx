@@ -7,6 +7,17 @@ const animations = [
       "The to() method is used to animate a single element from a starting state to an ending state.",
     path: "/gsapto",
   },
+    useGSAP(()=>{
+        gsap.from('#green-box',{
+          x: 250,
+          repeat:1,
+          yoyo:true,
+          rotation:360,
+          duration:2,
+          ease:"power1.inOut",
+
+        })
+  }, 
   {
     title: "GSAP From",
     description:
