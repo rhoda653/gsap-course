@@ -15,6 +15,18 @@ const GsapScrollTrigger = () => {
             borderRadius:'100%',
             scale:1.5
           })
+           gsap.to(box, {
+            x: 150,
+            rotation:360,
+            borderRadius:'100%',
+            scale:1.5
+          })
+           gsap.to(box, {
+            x: 150,
+            rotation:360,
+            borderRadius:'100%',
+            scale:1.5
+          })
         })
 
       
