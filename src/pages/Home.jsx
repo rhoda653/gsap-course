@@ -14,7 +14,16 @@ const animations = [
           yoyo:true,
           rotation:360,
           duration:2,
-          ease:"power1.inOut",
+          ease:"power1.inOut"
+
+        })
+         gsap.from('#green-box',{
+          x: 250,
+          repeat:1,
+          yoyo:true,
+          rotation:360,
+          duration:2,
+          ease:"power1.inOut"
 
         })
   }, 
@@ -53,7 +62,7 @@ const animations = [
     description: "Learn how to animate text with GSAP.",
     path: "/gsaptext",
   },
-];
+)];
 
 const Home = () => {
   return (
