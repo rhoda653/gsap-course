@@ -17,15 +17,7 @@ const animations = [
           ease:"power1.inOut"
 
         })
-         gsap.from('#green-box',{
-          x: 250,
-          repeat:1,
-          yoyo:true,
-          rotation:360,
-          duration:2,
-          ease:"power1.inOut"
-
-        })
+       
   }, 
   {
     title: "GSAP From",
