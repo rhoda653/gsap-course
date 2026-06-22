@@ -13,11 +13,6 @@ const GsapText = () => {
         <code>gsap.timeline()</code> to animate text.
       </p>
 
-        <p className="mt-5 text-gray-500 para">
-        We can use same method like <code>gsap.to()</code>,{" "}
-        <code>gsap.from()</code>, <code>gsap.fromTo()</code> and{" "}
-        <code>gsap.timeline()</code> to animate text.
-      </p>
 
       <p className="mt-5 text-gray-500 para">
         Using these methods we can achieve various text animations and effects
