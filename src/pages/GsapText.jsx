@@ -18,10 +18,7 @@ const GsapText = () => {
         Using these methods we can achieve various text animations and effects
         like fade in, fade out, slide in, slide out, and many more.
       </p>
- <p className="mt-5 text-gray-500 para">
-        Using these methods we can achieve various text animations and effects
-        like fade in, fade out, slide in, slide out, and many more.
-      </p>
+
       <p className="mt-5 text-gray-500 para">
         For more advanced text animations and effects, you can explore the GSAP
         TextPlugin or other third-party libraries that specialize in text
