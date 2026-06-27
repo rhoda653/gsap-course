@@ -17,6 +17,19 @@ useGSAP(()=>{
       ease:'circ.inOut',
       from:'center'
     }
+    stagger:{
+      amount:1.5,
+      grid:[2,1],
+      axis:'y',
+      ease:'circ.inOut',
+      from:'center'
+    }stagger:{
+      amount:1.5,
+      grid:[2,1],
+      axis:'y',
+      ease:'circ.inOut',
+      from:'center'
+    }
   })
 })
   return (
